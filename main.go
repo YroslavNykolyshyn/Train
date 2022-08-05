@@ -36,6 +36,7 @@ type Train struct {
 	DepartureTime      time.Time `json:"departureTime"`
 }
 
+//...main
 func main() {
 	// ... запит даних від користувача
 	departureStation, arrivalStation, criteria, err := InputValue()
